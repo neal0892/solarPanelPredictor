@@ -13,6 +13,11 @@ img {
 
 img:active {
     -webkit-transform: scale(2);
+	-ms-transform:scale(2); /* IE */
+	transform:scale(2);
+	-moz-transform:scale(2); /* Firefox */
+ /* Safari and Chrome */
+	-o-transform:scale(2);/* Opera */
 }
 </style>
 
